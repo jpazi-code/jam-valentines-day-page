@@ -211,10 +211,10 @@ export default function Survive() {
   if (phase === "initial") {
     return (
       <div className="flex flex-col items-center justify-center h-screen">
-        <h1 className="text-4xl mb-4">last chance to press yes</h1>
+        <h1 className="text-4xl mb-4">last chance to be my valentine</h1>
         <div className="flex gap-4">
           <Button to="/YAYYY" className="bg-red-400 text-white px-4 py-2 rounded">
-            Yes
+            Yes, I don't want to not be your valentine
           </Button>
           <Button
             to="/no"
@@ -230,7 +230,7 @@ export default function Survive() {
               setPhase("aiming");
             }}
           >
-            No
+            Opposite of the other choice
           </Button>
         </div>
       </div>

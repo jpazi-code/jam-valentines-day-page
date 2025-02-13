@@ -1,12 +1,12 @@
 import Button from "../components/Button";
-import myImage from "../assets/image 2.jpeg";
+import myImage from "../assets/image 4.png";
 
-export default function PLEASEEE() {
+export default function DoubleNegation() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       {/* Title */}
       <h1 className="text-2xl font-semibold text-center mb-4">
-        istg if u say no again i'll crash out fr
+        Will u not be my valentine?
       </h1>
 
       {/* Image */}
@@ -19,13 +19,13 @@ export default function PLEASEEE() {
       {/* Button Container */}
       <div className="flex items-center gap-4">
         <Button
-          to="/YAYYY"
+          to="/survive"
           className="text-4xl bg-red-400 text-white font-bold rounded-lg px-6 py-3"
         >
           Yes
         </Button>
         <Button
-          to="/BRO-PLEASEEEEEEEE-WTF"
+          to="/YAYYY"
           className="text-xs bg-gray-400 text-white font-semibold rounded-lg px-2 py-1"
         >
           No

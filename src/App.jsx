@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1 className="flex flex-col justify-center">Will you be my valentine??</h1>
+      <h1 className="flex flex-col justify-center">will u be my valentuzz?</h1>
 
       <div className="flex flex-row gap-4 mt-4 justify-center">
         <Button

@@ -5,7 +5,7 @@ import myImage from '../assets/images.jpeg'; // Adjust the path to your image fi
 export default function BroCmon() {
     return (
         <>
-          <h1 className="flex flex-col">cmon bruh dont pmo</h1>
+          <h1 className="flex flex-col">cmon bruh ts (this) pmo (piss me off)</h1>
           <h2 className="flex flex-col">just press yes</h2>
 
           <img src={myImage} alt="Description of image" className="w-[200px] h-[200px] object-cover mt-4 mx-auto" />

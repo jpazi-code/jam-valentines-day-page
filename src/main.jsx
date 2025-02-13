@@ -15,6 +15,8 @@ import Home from './pages/home'
 import FuturePlans from './pages/future-plans'
 import FavoritePics from './pages/favorite-pics'
 import YAYYY2 from './pages/YAYYY2'
+import DoubleNegation from './pages/double-negative-if-u-rlly-need-a-hint'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <HashRouter>
@@ -26,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/ask-question" element={<AskQuestion />} />
       <Route path="/PLEASEEEEEEE" element={<PLEASEEE />} />
       <Route path="/BRO-PLEASEEEEEEEE-WTF" element={<BroPleaseeeeWTF />} />
+      <Route path="/double-negative-if-u-rlly-need-a-hint" element={<DoubleNegation />} />
       <Route path="*" element={<NotFoundPage />} />
       <Route path="/survive" element={<Survive />} />
       <Route path="/home" element={<Home />} />
