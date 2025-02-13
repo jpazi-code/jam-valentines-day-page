@@ -14,7 +14,7 @@ export function Layout27() {
               budgeting
             </h2>
             <p className="mb-6 md:mb-8 md:text-md">
-              below is the breakdown of how we will the bills for anything
+              below is the breakdown of how we will pay the bills for anything
             </p>
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
               <div>
