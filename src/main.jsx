@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import App from './App'
 import YAYYY from './pages/YAYYY'
@@ -15,9 +15,8 @@ import Home from './pages/home'
 import FuturePlans from './pages/future-plans'
 import FavoritePics from './pages/favorite-pics'
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/YAYYY" element={<YAYYY />} />
@@ -31,5 +30,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/future-plans" element={<FuturePlans />} />
       <Route path="/favorite-pics" element={<FavoritePics />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 )
