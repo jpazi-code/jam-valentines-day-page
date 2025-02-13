@@ -14,12 +14,14 @@ import Survive from './pages/survive'
 import Home from './pages/home'
 import FuturePlans from './pages/future-plans'
 import FavoritePics from './pages/favorite-pics'
+import YAYYY2 from './pages/YAYYY2'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/YAYYY" element={<YAYYY />} />
+      <Route path="/YAYYY2" element={<YAYYY2 />} />
       <Route path="/bro-cmonn" element={<BroCmon />} />
       <Route path="/ask-question" element={<AskQuestion />} />
       <Route path="/PLEASEEEEEEE" element={<PLEASEEE />} />

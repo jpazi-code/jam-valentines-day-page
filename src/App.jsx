@@ -11,7 +11,7 @@ function App() {
 
       <div className="flex flex-row gap-4 mt-4 justify-center">
         <Button
-          to="/YAYYY"
+          to="/YAYYY2"
           className="text-lg bg-red-400 text-white font-semibold rounded-lg px-4 py-2 text-center"
         >
           Yes

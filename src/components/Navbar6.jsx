@@ -46,7 +46,7 @@ export function Navbar6() {
       className="relative z-[999] flex min-h-16 w-full items-center border-b border-border-primary bg-background-primary px-[5%] md:min-h-18"
     >
       <div className="mx-auto flex size-full max-w-full items-center justify-between">
-        <a href="/">
+        <a href="#/">
           <img
             src={logo}
             alt="Logo image"
@@ -56,19 +56,19 @@ export function Navbar6() {
         <div className="absolute hidden h-screen overflow-auto border-b border-border-primary bg-background-primary px-[5%] pb-24 pt-4 md:pb-0 lg:static lg:ml-6 lg:flex lg:h-auto lg:flex-1 lg:items-center lg:justify-between lg:border-none lg:bg-none lg:px-0 lg:pt-0">
           <div className="flex flex-col items-center lg:flex-row">
             <a
-              href="/home"
+              href="#/home"
               className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
             >
               Home Page
             </a>
             <a
-              href="/favorite-pics"
+              href="#/favorite-pics"
               className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
             >
               Favorite Pics
             </a>
             <a
-              href="/future-plans"
+              href="#/future-plans"
               className="relative block w-auto py-3 text-md lg:inline-block lg:px-4 lg:py-6 lg:text-base"
             >
               Future Plans
