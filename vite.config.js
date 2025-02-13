@@ -8,5 +8,5 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),],
-    base: '/jam-valentines-day-page',
+    base: '/jam-valentines-day-page/',
 })
