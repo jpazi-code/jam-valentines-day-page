@@ -213,12 +213,12 @@ export default function Survive() {
       <div className="flex flex-col items-center justify-center h-screen">
         <h1 className="text-4xl mb-4">last chance to be my valentine</h1>
         <div className="flex gap-4">
-          <Button to="/YAYYY" className="bg-red-400 text-white px-4 py-2 rounded">
+          <Button to="/YAYYY" className="shadow-md bg-red-400 text-white px-4 py-2 rounded">
             Yes, I don't want to not be your valentine
           </Button>
           <Button
             to="/no"
-            className="bg-gray-400 text-white px-4 py-2 rounded"
+            className="shadow-md bg-gray-400 text-white px-4 py-2 rounded"
             onClick={(e) => {
               e.preventDefault();
               const rect = e.target.getBoundingClientRect();
@@ -358,10 +358,10 @@ export default function Survive() {
           className="w-[200px] h-[200px] object-cover mt-4 mx-auto"
         />
         <div className="flex gap-4">
-          <Button to="/YAYYY" className="bg-red-400 text-white px-4 py-2 rounded">
+          <Button to="/YAYYY" className="shadow-md bg-red-400 text-white px-4 py-2 rounded">
             Yes
           </Button>
-          <Button to="/YAYYY" className="bg-red-400 text-white px-4 py-2 rounded">
+          <Button to="/YAYYY" className="shadow-md bg-red-400 text-white px-4 py-2 rounded">
             Yes
           </Button>
         </div>

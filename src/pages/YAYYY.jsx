@@ -9,7 +9,7 @@ export default function YAYYY() {
 
             <Button
                 to="/home"
-                className="text-lg bg-red-400 text-white font-semibold rounded-lg px-4 py-2 text-center"
+                className="shadow-md text-lg bg-red-400 text-white font-semibold rounded-lg px-4 py-2 text-center"
             >
                 go to the actual website
             </Button>

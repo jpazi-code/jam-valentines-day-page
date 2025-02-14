@@ -20,13 +20,13 @@ export default function PLEASEEE() {
       <div className="flex items-center gap-4">
         <Button
           to="/YAYYY"
-          className="text-4xl bg-red-400 text-white font-bold rounded-lg px-6 py-3"
+          className="shadow-md text-4xl bg-red-400 text-white font-bold rounded-lg px-6 py-3"
         >
           Yes
         </Button>
         <Button
           to="/BRO-PLEASEEEEEEEE-WTF"
-          className="text-xs bg-gray-400 text-white font-semibold rounded-lg px-2 py-1"
+          className="shadow-md text-xs bg-gray-400 text-white font-semibold rounded-lg px-2 py-1"
         >
           No
         </Button>

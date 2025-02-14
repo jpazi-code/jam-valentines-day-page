@@ -19,7 +19,7 @@ export default function BroPleaseeeeWTF() {
         {/* MASSIVE YES BUTTON */}
         <Button
           to="/YAYYY"
-          className="text-6xl bg-red-400 text-white font-extrabold rounded-lg px-12 py-8 z-10"
+          className="shadow-md text-6xl bg-red-400 text-white font-extrabold rounded-lg px-12 py-8 z-10"
         >
           Yes
         </Button>
@@ -27,7 +27,7 @@ export default function BroPleaseeeeWTF() {
         {/* TINY NO BUTTON (HIDDEN IN THE CORNER) */}
         <Button
           to="/double-negative-if-u-rlly-need-a-hint"
-          className="text-[2px] bg-gray-400 text-white font-semibold 
+          className="shadow-md text-[2px] bg-gray-400 text-white font-semibold 
                      rounded-lg px-1 py-0.5 text-center 
                      absolute top-2 right-2"
         >

@@ -13,34 +13,34 @@ export function Gallery4_4() {
         <div className="mb-12 text-center md:mb-18 lg:mb-20">
         </div>
         <div className="grid grid-cols-2 items-start justify-center gap-6 md:gap-8 lg:grid-cols-4">
-          <a href="#">
+          <>
             <img
               src= {twentythree}
               alt="Relume placeholder image 1"
               className="size-full object-cover"
             />
-          </a>
-          <a href="#">
+          </>
+          <>
             <img
               src= {twentyfour}
               alt="Relume placeholder image 2"
               className="size-full object-cover"
             />
-          </a>
-          <a href="#">
+          </>
+          <>
             <img
               src= {twentyfive}
               alt="Relume placeholder image 3"
               className="size-full object-cover"
             />
-          </a>
-          <a href="#">
+          </>
+          <>
             <img
               src= {two}
               alt="Relume placeholder image 4"
               className="size-full object-cover"
             />
-          </a>
+          </>
         </div>
       </div>
     </section>
